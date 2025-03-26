@@ -7,9 +7,9 @@
 // 2. Construa um programa para calcular a área e de um círculo, a área deve ser do tipo de ponteiro. 
 
 void calculoArea (double raio, double *area){
-	
+
 	*area = PI *  (raio * raio);
-	
+
 }
 
 
@@ -19,8 +19,7 @@ int main (void){
 	
 	printf("Digite o raio do circulo \n");
 	scanf("%lf", &raio);
-	
-	
+
 	calculoArea  (raio, &area);
 	
 	printf("Area do circulo e %.2lf\n", area);
